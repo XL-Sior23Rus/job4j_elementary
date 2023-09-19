@@ -1,5 +1,4 @@
 package ru.job4j.condition;
-
 public class SqArea {
     public static double square(double p, double k) {
         double h1 = k + 1;
