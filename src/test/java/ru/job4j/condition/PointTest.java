@@ -38,7 +38,7 @@ class PointTest {
     }
 
     @Test
-    void when31to55then2() {
+    void when31to55then4dot47() {
         double expected = 4.47;
         int x1 = 3;
         int y1 = 1;
