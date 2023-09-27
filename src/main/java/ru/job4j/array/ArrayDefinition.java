@@ -8,8 +8,8 @@ public class ArrayDefinition {
         names[1] = "Elena Zapashnaa";
         names[2] = "Irina Zapashnaa";
         names[3] = "Aleksandr Zapashniy";
-            System.out.println(names[0]);
-        }
+        System.out.println(names[0]);
     }
+}
 
 
