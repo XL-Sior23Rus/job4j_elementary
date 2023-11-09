@@ -12,4 +12,3 @@ public class EndsWith {
         return result;
     }
 }
-        /* проверить. что массив word имеет последние элементы одинаковые с post */

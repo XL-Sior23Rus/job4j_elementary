@@ -25,5 +25,4 @@ public class MathCalculator {
         System.out.println("Результат расчета равен: " + diffAndDivision(10, 20));
         System.out.println("Результат расчета равен: " + all(10, 20));
     }
-
 }

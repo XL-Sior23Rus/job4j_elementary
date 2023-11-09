@@ -11,5 +11,3 @@ public class ArrayDefinition {
         System.out.println(names[0]);
     }
 }
-
-
