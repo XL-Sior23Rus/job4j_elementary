@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class MatrixCheckTest {
 
     @Test
-    public void whenHasMonoHorizontal () {
+    public void whenHasMonoHorizontal() {
         char[][] input = {
                 {' ', ' ', ' '},
                 {'X', 'X', 'X'},
@@ -18,7 +18,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenHasNotMonoHorizontal () {
+    public void whenHasNotMonoHorizontal() {
         char[][] input = {
                 {' ', ' ', ' '},
                 {' ', ' ', ' '},
@@ -30,7 +30,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenHasMonoVertical () {
+    public void whenHasMonoVertical() {
         char[][] input = {
                 {' ', ' ', 'X'},
                 {' ', ' ', 'X'},
@@ -42,7 +42,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenHasNotMonoVertical () {
+    public void whenHasNotMonoVertical() {
         char[][] input = {
                 {' ', ' ', ' '},
                 {'X', ' ', ' '},
@@ -54,7 +54,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenDiagonalFullX () {
+    public void whenDiagonalFullX() {
         char[][] input = {
                 {'X', ' ', ' '},
                 {' ', 'X', ' '},
@@ -66,7 +66,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenDiagonalFullOne () {
+    public void whenDiagonalFullOne() {
         char[][] input = {
                 {'1', ' ', ' '},
                 {' ', '1', ' '},
@@ -78,7 +78,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenDiagonalMix () {
+    public void whenDiagonalMix() {
         char[][] input = {
                 {'X', ' ', ' '},
                 {' ', 'Y', ' '},
@@ -90,7 +90,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenDataMonoByTrueThenTrue () {
+    public void whenDataMonoByTrueThenTrue() {
         char[][] input = {
                 {' ', ' ', 'X', ' ', ' '},
                 {' ', ' ', 'X', ' ', ' '},
@@ -103,7 +103,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenDataNotMonoByTrueThenFalse () {
+    public void whenDataNotMonoByTrueThenFalse() {
         char[][] input = {
                 {' ', ' ', 'X', ' ', ' '},
                 {' ', ' ', 'X', ' ', ' '},
@@ -116,7 +116,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenDataHMonoByTrueThenTrue () {
+    public void whenDataHMonoByTrueThenTrue() {
         char[][] input = {
                 {' ', ' ', ' ', ' ', ' '},
                 {' ', ' ', ' ', ' ', ' '},
@@ -129,7 +129,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenDataDiagMonoIsTrueThenFalse () {
+    public void whenDataDiagMonoIsTrueThenFalse() {
         char[][] input = {
                 {'X', ' ', ' ', ' ', ' '},
                 {' ', 'X', ' ', ' ', ' '},
