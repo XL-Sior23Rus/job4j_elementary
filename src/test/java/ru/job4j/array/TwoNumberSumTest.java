@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class TwoNumberSumTest {
     @Test
-    void whenTwoEqualsNumbersYesTarget() {
+    void whenTwoEqualsNumbersYesTarget () {
         int[] array = {5, 5};
         int target = 10;
         int[] result = TwoNumberSum.getIndexes(array, target);
